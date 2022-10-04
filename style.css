@@ -1,0 +1,80 @@
+/* Write some CSS below */
+/* style.css */
+body {
+  font-family: Times;
+  color: #404042;
+  font-size: 18px;
+background-color: #F6CB0C;
+}
+
+
+h1 {color:#D49B0B;
+font-size:100px;
+font-weight: bold;
+font-family: peralta;
+text-align: center;}
+
+h2 {color: #F65C0C;
+text-align: center;
+font-size: 40px;}
+
+h3 {color: #F65C0C;font: bold;font-size: 30px; text-align: center;}
+
+p {color: white; font-weight: 200;text-align: center; font-size: 20px;}
+
+a {color: black;
+  font-weight: bold;
+  text-decoration: line-through;
+  text-align: center;
+  transition: .3s;}
+
+
+
+.banner {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	padding: 120px;
+	text-align: center;
+}
+
+.img-campus
+{background-color: orange;
+border-radius: 50%;
+text-align: center;}
+
+.btn-blu
+{text-align: center;
+padding: 12px 40px;
+margin: 10px;
+display: inline-block;
+text-align: center;
+background-color: white;
+text-decoration: none;}
+
+.btn-blu:hover
+{background-color: orange;
+color: orange;}
+
+.cardwhite{background-color: white;
+box-shadow: 0 0 0 30px;
+border-radius: 10px;
+text-align: center;
+}
+
+.cardwhite img{width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 10px;}
+
+.footer{background-color: black;
+color: white;
+padding: 20px;
+text-align: center;
+border-radius: 10px;
+}
+
+.cardcontainder{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 100px;
+}
